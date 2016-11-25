@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #New Age Jekyll theme
 =========================
 
@@ -44,3 +45,7 @@ We can get in touch by:
 
 =========
 For more details, read the [documentation](http://jekyllrb.com/)
+=======
+# Plug-Store
+A web store
+>>>>>>> 9b52e1469a1f998db9c9ce438736b86b581961dc
