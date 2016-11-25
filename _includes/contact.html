@@ -1,0 +1,53 @@
+
+<section id="contact" class="contact bg-primary">
+    <div class="container">
+        <h2>FOLLOW US!</h2>
+        <ul class="list-inline list-social">
+            {% for network in site.social %}
+            <li class="social-{{ network.title }}">
+                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+            </li>
+        {% endfor %}
+        </ul>
+        <!-- <ul class="list-inline list-social">
+            <li class="social-twitter">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social-facebook">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social-google-plus">
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+        </ul> -->
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2016 PlugStore <a target="_blank" rel="nofollow" href="https://jekyllrb.com/"> Designed by Abouba</a>. All Rights Reserved.</p>
+        <ul class="list-inline">
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+        </ul>
+    </div>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script>var $=jQuery.noConflict();</script>
+
+<!-- Shoprocket JavaScript -->
+<script language="javascript" src="https://space.shoprocket.co/frontend/sr.min.js?cid=11395"></script>
+
+<!-- Shoprocket Basket Widget -->
+<div id="sr-basket-widget" class="sr-right"><span class="sr-confirm-amount"></span></div>
+
+
+
+
+
+</footer>
