@@ -71,16 +71,16 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 11px;
-    color: #1f1f1f; }
+    color: #222222; }
     .navbar-default .nav > li > a:focus {
-      color: #1f1f1f; }
+      color: #222222; }
     .navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
-      color: #1f1f1f; }
+      color: #eb3811; }
   .navbar-default .nav > li.active > a {
-    color: #1f1f1f !important;
+    color: #eb3811 !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:focus {
-      color: #1f1f1f !important;
+      color: #eb3811 !important;
       background-color: transparent; }
     .navbar-default .nav > li.active > a:hover, .navbar-default .nav > li.active > a:focus:hover {
       background-color: transparent; }
@@ -90,12 +90,11 @@ p {
     background-color: transparent;
     border-color: transparent; }
     .navbar-default .navbar-header .navbar-brand {
-      color: #1f1f1f; }
+      color: rgba(255, 255, 255, 0.7); }
       .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
         color: white; }
     .navbar-default .nav > li > a {
-      color: #1f1f1f; 
-      font-weight:700;}
+      color: rgba(255, 255, 255, 0.7); }
       .navbar-default .nav > li > a:focus {
         color: rgba(255, 255, 255, 0.7); }
       .navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
